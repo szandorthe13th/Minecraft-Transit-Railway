@@ -187,9 +187,9 @@ public final class Blocks {
 		STATION_COLOR_WOOL_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_color_wool_slab"), () -> new Block(new BlockStationColorSlab()), ItemBlockEnchanted::new, CreativeModeTabs.STATION_BUILDING_BLOCKS);
 
 		// Station misc
-		STATION_COLOR_PILLAR_TOP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_pillar_top"), () -> new Block(new BlockStationColorPillarTop(true)), ItemBlockEnchanted::new, CreativeModeTabs.STATION_BUILDING_BLOCKS);
-		STATION_COLOR_PILLAR = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_pillar"), () -> new Block(new BlockStationColorPillar(true)), ItemBlockEnchanted::new, CreativeModeTabs.STATION_BUILDING_BLOCKS);
-		STATION_COLOR_PILLAR_BOTTOM = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_pillar_bottom"), () -> new Block(new BlockStationColorPillarBottom(true)), ItemBlockEnchanted::new, CreativeModeTabs.STATION_BUILDING_BLOCKS);
+		STATION_COLOR_PILLAR_TOP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_color_pillar_top"), () -> new Block(new BlockStationColorPillarTop(true)), ItemBlockEnchanted::new, CreativeModeTabs.STATION_BUILDING_BLOCKS);
+		STATION_COLOR_PILLAR = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_color_pillar"), () -> new Block(new BlockStationColorPillar(true)), ItemBlockEnchanted::new, CreativeModeTabs.STATION_BUILDING_BLOCKS);
+		STATION_COLOR_PILLAR_BOTTOM = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_color_pillar_bottom"), () -> new Block(new BlockStationColorPillarBottom(true)), ItemBlockEnchanted::new, CreativeModeTabs.STATION_BUILDING_BLOCKS);
 		STATION_COLOR_POLE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_pole"), () -> new Block(new BlockStationColorPole(true)), ItemBlockEnchanted::new, CreativeModeTabs.STATION_BUILDING_BLOCKS);
 
 		// machines
@@ -234,9 +234,9 @@ public final class Blocks {
 		MOSAIC_TILE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "mosaic_tile"), () -> new Block(new BlockExtension(BlockHelper.createBlockSettings(false))), CreativeModeTabs.STATION_BUILDING_BLOCKS);
 		MOSAIC_TILE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "mosaic_tile_slab"), () -> new Block(new SlabBlockExtension(BlockHelper.createBlockSettings(false))), CreativeModeTabs.STATION_BUILDING_BLOCKS);
 		RUBBISH_BIN_1 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "rubbish_bin_1"), () -> new Block(new BlockRubbishBin(BlockHelper.createBlockSettings(false))), CreativeModeTabs.RAILWAY_FACILITIES);
-		STATION_PILLAR_TOP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "pillar_top"), () -> new Block(new BlockExtension(BlockHelper.createBlockSettings(false))), CreativeModeTabs.STATION_BUILDING_BLOCKS);
-		STATION_PILLAR = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "pillar"), () -> new Block(new BlockExtension(BlockHelper.createBlockSettings(false))), CreativeModeTabs.STATION_BUILDING_BLOCKS);
-		STATION_PILLAR_BOTTOM = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "pillar_bottom"), () -> new Block(new BlockExtension(BlockHelper.createBlockSettings(false))), CreativeModeTabs.STATION_BUILDING_BLOCKS);
+		STATION_PILLAR_TOP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_pillar_top"), () -> new Block(new BlockExtension(BlockHelper.createBlockSettings(false))), CreativeModeTabs.STATION_BUILDING_BLOCKS);
+		STATION_PILLAR = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_pillar"), () -> new Block(new BlockExtension(BlockHelper.createBlockSettings(false))), CreativeModeTabs.STATION_BUILDING_BLOCKS);
+		STATION_PILLAR_BOTTOM = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_pillar_bottom"), () -> new Block(new BlockExtension(BlockHelper.createBlockSettings(false))), CreativeModeTabs.STATION_BUILDING_BLOCKS);
 		TACTILE_MAP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "tactile_map"), () -> new Block(new BlockTactileMap(BlockHelper.createBlockSettings(false))), CreativeModeTabs.RAILWAY_FACILITIES);
 
 		// NTE
