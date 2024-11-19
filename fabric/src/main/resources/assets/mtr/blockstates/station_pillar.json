@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"waterlogged=false": {
+			"model": "mtr:block/station_pillar"
+		},
+		"waterlogged=true": {
+			"model": "mtr:block/station_pillar"
+		}
+	}
+}
