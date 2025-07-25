@@ -156,7 +156,7 @@ public class EditRouteScreen extends EditNameColorScreenBase<Route> implements I
 		final RouteType routeType = route.getRouteType();
 		switch (route.getTransportMode()) {
 			case TRAIN:
-				return (routeType == RouteType.LIGHT_RAIL ? TranslationProvider.GUI_MTR_ROUTE_TYPE_TRAIN_LIGHT_RAIL : routeType == RouteType.HIGH_SPEED ? TranslationProvider.GUI_MTR_ROUTE_TYPE_TRAIN_HIGH_SPEED : TranslationProvider.GUI_MTR_ROUTE_TYPE_TRAIN_NORMAL).getText();
+				return (routeType == RouteType.LIGHT_RAIL ? TranslationProvider.GUI_MTR_ROUTE_TYPE_TRAIN_LIGHT_RAIL : routeType == RouteType.METRO ? TranslationProvider.GUI_MTR_ROUTE_TYPE_TRAIN_METRO : routeType == RouteType.INTERCITY ? TranslationProvider.GUI_MTR_ROUTE_TYPE_TRAIN_INTERCITY : routeType == RouteType.HIGH_SPEED ? TranslationProvider.GUI_MTR_ROUTE_TYPE_TRAIN_HIGH_SPEED : TranslationProvider.GUI_MTR_ROUTE_TYPE_TRAIN_NORMAL).getText();
 			case BOAT:
 				return (routeType == RouteType.LIGHT_RAIL ? TranslationProvider.GUI_MTR_ROUTE_TYPE_BOAT_LIGHT_RAIL : routeType == RouteType.HIGH_SPEED ? TranslationProvider.GUI_MTR_ROUTE_TYPE_BOAT_HIGH_SPEED : TranslationProvider.GUI_MTR_ROUTE_TYPE_BOAT_NORMAL).getText();
 			default:
